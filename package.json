@@ -3,6 +3,7 @@
   "version": "0.1.0",
   "description": "generate random samples from Wordnetify output",
   "main": "lib/index.js",
+  "preferGlobal": "true",
   "scripts": {
     "test": "./node_modules/.bin/mocha",
     "test-cov": "./node_modules/.bin/istanbul cover ./node_modules/.bin/_mocha --dir ./reports/coverage -- -R spec",
@@ -30,5 +31,12 @@
     "jshint": "^2.6.3",
     "jshint-stylish": "^1.0.1",
     "mocha": "^2.2.1"
+  },
+  "dependencies": {
+    "colors": "^1.0.3",
+    "commander": "^2.7.1",
+    "lodash": "^3.5.0",
+    "plus_arrays": "^0.1.4",
+    "readline-sync": "^0.7.9"
   }
 }
