@@ -26,3 +26,4 @@ node_modules
 
 # JSON
 *.json
+!package.json
